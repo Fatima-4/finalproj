@@ -1,7 +1,18 @@
 
 .App {
-  font-family: sans-serif;
-  background-color: #fffbcb;
+  text-align: center;
+  background-color: #fffbcb ;
+}
+.Logo {
+  width: 150px;
+  height: 100px;
+  padding-right: 1000px;
+}
+.P {
+font-size: 15px;
+font-family: "Times New Roman", Times, serif; 
+text-align: center;
+color:#ff3385;
 }
 .div1 {
   display: flex;

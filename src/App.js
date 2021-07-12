@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Homepage from './Homepage.js'
+import Signup from './Signup';
+import Homepage from './Homepage.
 
-function App() {
+
+export default class App extends React.Component {
+  render (){
   return (
     <div className="App">
-    
-      <Homepage />
+     <Homepage />
     </div>
   );
+  }
 }
 
-export default App;
+
