@@ -1,38 +1,71 @@
+
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  background-color: #fffbcb;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  width: 83px;
+  padding: 10px;
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.hala {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color:#ff3385;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.div3 {
+  display: flex;
+  color:#0099e6;
+  flex-direction: column;
+  width: 400px;
+  padding: 60px;
+  height: 440px;
 }
+.imageone {
+  display: flex;
+  width: 660px;
+  height: 540px;
+}
+.div12 {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+}
+.div34 {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.hala2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  width: 220px;
+}
+.logo {
+  width: 360px;
+  height: 200px;
+}
+
+.login{
+  font-family: "Times New Roman", Times, serif;
+  color:#0099e6;
+}
+.blue{
+  color:#0099e6;
+}
+
+
+
+
+
+
