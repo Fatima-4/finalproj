@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   background-color: #fffbcb ;
@@ -13,3 +14,69 @@ font-family: "Times New Roman", Times, serif;
 text-align: center;
 color:#ff3385;
 }
+.div1 {
+  display: flex;
+  justify-content: center;
+
+  width: 83px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+
+.hala {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color:#ff3385;
+  font-size: 25px;
+}
+
+
+.div3 {
+  display: flex;
+  color:#0099e6;
+  flex-direction: column;
+  width: 400px;
+  padding: 60px;
+  height: 440px;
+}
+.imageone {
+  display: flex;
+  width: 660px;
+  height: 540px;
+}
+.div12 {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+}
+.div34 {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.hala2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  width: 220px;
+}
+.logo {
+  width: 360px;
+  height: 200px;
+}
+
+.login{
+  font-family: "Times New Roman", Times, serif;
+  color:#0099e6;
+}
+.blue{
+  color:#0099e6;
+}
+
+
+
+
+
+
