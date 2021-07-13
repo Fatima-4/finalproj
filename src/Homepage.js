@@ -5,6 +5,8 @@ import logo from "./logofinal.png";
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+
 const useStyles = makeStyles((theme) => ({
   root: {
   '& > *': {
@@ -17,6 +19,19 @@ const useStyles = makeStyles((theme) => ({
 function Homepage(){
   const classes = useStyles(); 
     return(
+      <Router>
+        
+        <div>
+          <link to="/Signup">signup</link>
+        </div>
+     
+      <switch>
+      <Route path ="Signup">
+        <Signup />
+      </Route>
+      </switch>
+
+
         <div className="App">
         <div className="div12">
           <div className="div1">
@@ -48,10 +63,17 @@ function Homepage(){
         </form>
       </div>
       <div className="blue">
-      <h5> If you don't have an account sign up?</h5>
-      </div>
-      </div>
 
+      <div>
+          <link to="/Signup">signup</link>
+          <h5> If you don't have an account sign up?</h5>
+        </div>
+
+      <h5> If you don't have an account sign up?</h5>
+
+      </div>
+      </div>
+      </Router>
     );
 }
 export default Homepage;
